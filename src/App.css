@@ -1,38 +1,252 @@
-.App {
+*{
+  margin: 0%;
+  box-sizing: border-box;
+}
+.top-bar{
+  background-color: black;
+}
+.dribbble{
+  font-family:Georgia;
+  color:rgb(241, 86, 138) ;
+}
+.symbol{
+margin-top: 5px;
+margin-right: 5px;
+}
+.search{
+  width: 100px;
   text-align: center;
-}
+  border: none;
+  background-color:aliceblue;
+  color:black;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search1{
+  border: none;
+  color: aliceblue;
+  background-color:rgb(245, 120, 162);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
+  text-align: center;
+  margin-top: 10px;
+}
+.middle{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.save{
+  border: none;
+  color: black;
+  background-color: rgb(193, 205, 215);
+  margin-right: 10px;
+}
+.Like{
+  border: none;
+  color:white;
+  background-color:rgb(245, 120, 162);
+}
+.image-div{
+display: flex;
+justify-content: center;
+}
+.main-image{
+border-radius: 10px;
+margin-top: 20px;
+}
+.hero-section{
+margin-left: 150px;
+}
+.logo{
+  border-radius: 25px;
+}
+.logo1{
+  border-radius: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.center-logo-div{
+  display: flex;
+  flex-direction: row;
+}
+.first-hr{
+  margin-left: 50px;
+}
+.after-logo-div{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.hire{
+  border: none;
+  color:white;
+  background-color:rgb(245, 120, 162);
+}
+p{
+  color:rgb(245, 120, 162) ;
+}
+.view-profile{
+  display: flex;
+  justify-content: space-around;
+}
+.view-head{
+  margin-right: 420px;
+}
+.flex-container{
+  display: flex;
+  gap: 40px;
+  margin-left: 130px;
+}
+.l-f-like{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.button1{
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+  background-color:azure ;
+  box-shadow: 2px 2px rgb(193, 205, 215) ;
+  color: rgb(181, 193, 205);
+  
+}
+.button2{
+  border: none;
+  color: rgb(181, 193, 205);
+  margin-left: 20px;
+  border-radius: 5px;
+  background-color:azure ;
+  box-shadow: 2px 2px rgb(193, 205, 215) ;
+}
+.move-aside{
+  margin-left: 20px;
+}
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(193, 205, 215);
+}
+.logos{
+  gap: 10px;
+  display: flex;
+}
+.submit{
+  border: none;
+  background-color:rgb(245, 120, 162) ;
+  color: aliceblue;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  margin-left: 45px;
+}
+.form-control{
+  width: 300px;
+}
+.full{
+  display: flex;
+}
+.left-half{
+  background-color: cadetblue;
+  width: 600px;
+  height: 120vh;
+  padding-top: 200px;
+  text-align: center;
+}
+.right-half{
+margin-top: 20px;
+margin-left:250px ;
+  width: 500px;
+  
+}
+.sigin-div{
+  display: flex;
+  /* justify-content: end; */
+  margin-left: 200px;
+}
+.p-sign-in{
+  position: relative;
+  bottom:2px;
+  margin-left: 7px;
+}
+.google{
+  background-color: blue;
+  border: none;
+  height: 30px;
+  width: 200px;
+  border-radius: 5px;
+  color: aliceblue;
+  margin-top: 20px;
+  font-family:'Times New Roman', Times, serif;
+}
+.re-create-button1{
+  margin-right: 60px;
+  color: black;
+  border: none;
+}
+body{
+ background-image: linear-gradient(to bottom,black,white,rgb(157, 157, 164));
+ height: 33rem;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.re-create-button2{
+  margin-right: 60px;
   color: white;
+  background-color: crimson;
+  border-radius: 30px;
+  border: none;
+}
+.Artfeel{
+  color: crimson;
+  font-style: italic;
+}
+.inside-window{
+  margin-top: 65px;
+  border: 2px  solid white;
+  width: 70rem;
+  height: 80vh;
+  margin-left: 50px;
+  border-radius: 15px;
+  background-image: url("https://cdn.dribbble.com/users/12113911/screenshots/20163743/media/7b67d31ad219edcf032e42e0b7f701f1.png?compress=1&resize=450x338&vertical=top");
+  background-size: cover;
 }
 
-.App-link {
-  color: #61dafb;
+.sun{
+  position: absolute;
+  top:130px;
+  left: 220px;
+  width: 100px;
+  height: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.birds{
+  position: absolute;
+  top:130px;
+  left: 920px;
+  width: 100px;
+  height: 100px;
 }
+.planet1{
+  position: absolute;
+  top:0px;
+  left: 0px;
+  width: 100px;
+  height: 100px;
+}
+.tree1{
+  position: absolute;
+  top:380px;
+  left: 800px;
+ width: 50px;
+ height: 50px;
+}
+/* .tree1{
+  width: 50px;
+  height: 50px;
+  
+} */
+.plant{
+  color: aliceblue;
+  font-style: oblique;
+  font-weight: bold;
+}
+
